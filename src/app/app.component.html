@@ -1,0 +1,49 @@
+
+<div class="custom-container">
+  <div class="row">
+    <div class="col-sm-12">
+        <div id="cc-name" class="form-group">
+          <div class="form-control-static">
+            <span class="fake-input"></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div id="cc-number" class="form-group">
+          <div class="form-control-static">
+            <span class="fake-input"></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div id="cc-cvc" class="form-group">
+          <div class="form-control-static">
+            <span class="fake-input"></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div id="cc-expiration-date" class="form-group">
+          <div class="form-control-static">
+            <span class="fake-input"></span>
+          </div>
+        </div>
+      </div>    
+  </div>
+
+</div>
+<button type="button" (click)="submitForm()" class="btn btn-primary">Submit</button>
+<pre>
+  <br>
+  <b>State</b>
+  <code>
+    <b>
+    {{state}}
+    </b>
+  </code>
+</pre>
+<div *ngFor="let i of response">
+  <pre>
+    <code>{{i}}</code>
+  </pre>
+</div>

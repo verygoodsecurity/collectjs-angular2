@@ -1,0 +1,10 @@
+body{
+  padding: 20px;
+}
+.fake-input iframe {
+  height: 32px;
+  max-width: 100%;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  padding-left: 4px;
+}
